@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.Select;
 
 public class Assignment1FacesBook {
 	public static void main(String[] args) {
-		cheko driver =  new ChromeDriver();
+		ChromeDriver driver = new ChromeDriver();	
 		driver.get("https://en-gb.facebook.com/");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
