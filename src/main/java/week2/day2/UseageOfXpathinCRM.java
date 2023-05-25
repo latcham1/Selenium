@@ -12,5 +12,9 @@ public class UseageOfXpathinCRM {
 		driver.findElement(By.xpath("//input[@class= 'decorativeSubmit']")).click();
 		driver.findElement(By.xpath("//a[contains(text(),'SFA')]")).click();
 		driver.findElement(By.xpath("//a[text()='Leads']")).click();
+		
+//		int[] a{1,3,64];
+		driver.close();
+		
 	}
 }

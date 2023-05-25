@@ -10,12 +10,9 @@ public class BrowserAutomation {
 		ChromeDriver driverc= new ChromeDriver();
 		EdgeDriver drivere =  new EdgeDriver();
 		SafariDriver drivers =  new SafariDriver();
-
-
-
-
-				drivers.get("https://www.facebook.com/");
+		drivers.get("https://www.facebook.com/");
 		drivere.get("https://www.facebook.com/");
 		driverc.get("https://www.facebook.com/");
+		
 	}
 }

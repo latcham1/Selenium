@@ -13,6 +13,6 @@ public class SalesForceApplicaitonTitleVerification {
 		String title = driver.getTitle();
 		System.out.println(title);
 		if (title.contains("Home | Salesforce"))
-		System.out.println("home page launched successfully");
+			System.out.println("home page launched successfully");
 	}
 }
