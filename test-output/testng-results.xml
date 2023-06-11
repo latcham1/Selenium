@@ -1,17 +1,126 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="36142" started-at="2023-05-25T07:49:12 EDT" finished-at="2023-05-25T07:49:48 EDT">
+  <suite name="Suite" duration-ms="78260" started-at="2023-06-04T10:08:24 EDT" finished-at="2023-06-04T10:09:43 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="36142" started-at="2023-05-25T07:49:12 EDT" finished-at="2023-05-25T07:49:48 EDT">
-      <class name="week5.day1.inclasspractice.TestngSample">
-        <test-method status="PASS" signature="loginPage()[pri:0, instance:week5.day1.inclasspractice.TestngSample@cb0ed20]" name="loginPage" duration-ms="35957" started-at="2023-05-25T07:49:12 EDT" finished-at="2023-05-25T07:49:48 EDT">
+    <test name="Test" duration-ms="78260" started-at="2023-06-04T10:08:24 EDT" finished-at="2023-06-04T10:09:43 EDT">
+      <class name="week6.day2.inclasspractice.dp.CreateLead">
+        <test-method status="PASS" signature="preCondition(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:week6.day2.inclasspractice.dp.CreateLead@1e8284b]" name="preCondition" is-config="true" duration-ms="18979" started-at="2023-06-04T10:08:24 EDT" finished-at="2023-06-04T10:08:43 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/control/main]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Demosalesmanager]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginPage -->
-      </class> <!-- week5.day1.inclasspractice.TestngSample -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="runCreateLead(java.lang.String,java.lang.String)[pri:0, instance:week6.day2.inclasspractice.dp.CreateLead@1e8284b]" name="runCreateLead" duration-ms="10561" started-at="2023-06-04T10:08:43 EDT" data-provider="setData" finished-at="2023-06-04T10:08:54 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Latcham]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Appasamy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCreateLead -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:week6.day2.inclasspractice.dp.CreateLead@1e8284b]" name="postCondition" is-config="true" duration-ms="2230" started-at="2023-06-04T10:08:54 EDT" finished-at="2023-06-04T10:08:56 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:week6.day2.inclasspractice.dp.CreateLead@1e8284b]" name="preCondition" is-config="true" duration-ms="10488" started-at="2023-06-04T10:08:56 EDT" finished-at="2023-06-04T10:09:07 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/control/main]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Demosalesmanager]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="runCreateLead(java.lang.String,java.lang.String)[pri:0, instance:week6.day2.inclasspractice.dp.CreateLead@1e8284b]" name="runCreateLead" duration-ms="10830" started-at="2023-06-04T10:09:07 EDT" data-provider="setData" finished-at="2023-06-04T10:09:18 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Latcham1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Appasamy1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCreateLead -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:week6.day2.inclasspractice.dp.CreateLead@1e8284b]" name="postCondition" is-config="true" duration-ms="793" started-at="2023-06-04T10:09:18 EDT" finished-at="2023-06-04T10:09:18 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- week6.day2.inclasspractice.dp.CreateLead -->
+      <class name="week6.day2.inclasspractice.dp.EditLead">
+        <test-method status="PASS" signature="preCondition(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:week6.day2.inclasspractice.dp.EditLead@f7c8c1]" name="preCondition" is-config="true" duration-ms="10551" started-at="2023-06-04T10:09:18 EDT" finished-at="2023-06-04T10:09:29 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/control/main]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Demosalesmanager]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="runEditLead()[pri:0, instance:week6.day2.inclasspractice.dp.EditLead@f7c8c1]" name="runEditLead" duration-ms="12201" started-at="2023-06-04T10:09:29 EDT" finished-at="2023-06-04T10:09:41 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runEditLead -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:week6.day2.inclasspractice.dp.EditLead@f7c8c1]" name="postCondition" is-config="true" duration-ms="1450" started-at="2023-06-04T10:09:41 EDT" finished-at="2023-06-04T10:09:43 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- week6.day2.inclasspractice.dp.EditLead -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

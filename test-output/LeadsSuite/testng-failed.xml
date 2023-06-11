@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [LeadsSuite]">
+  <test thread-count="5" name="LeadsTest(failed)">
+    <classes>
+      <class name="week5.day1.inclasspractice.MergeLead">
+        <methods>
+          <include name="Precondition"/>
+          <include name="runMergeLead"/>
+        </methods>
+      </class> <!-- week5.day1.inclasspractice.MergeLead -->
+      <class name="week5.day1.inclasspractice.DeleteLead">
+        <methods>
+          <include name="Precondition"/>
+          <include name="runDeleteLead"/>
+        </methods>
+      </class> <!-- week5.day1.inclasspractice.DeleteLead -->
+      <class name="week5.day1.inclasspractice.CreateLead">
+        <methods>
+          <include name="runCreateLead"/>
+          <include name="Precondition"/>
+        </methods>
+      </class> <!-- week5.day1.inclasspractice.CreateLead -->
+      <class name="week5.day1.inclasspractice.EditLead">
+        <methods>
+          <include name="runEditLead"/>
+          <include name="Precondition"/>
+        </methods>
+      </class> <!-- week5.day1.inclasspractice.EditLead -->
+    </classes>
+  </test> <!-- LeadsTest(failed) -->
+</suite> <!-- Failed suite [LeadsSuite] -->

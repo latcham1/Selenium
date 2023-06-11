@@ -2,19 +2,24 @@ package marathon2;
 
 
 
+import java.io.File;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import java.util.Set;
 
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import io.github.sukgu.Shadow;
 
 public class Testcase1AdministratorCertifications {
-	public static void main(String[] args) throws InterruptedException {
+	public static void main(String[] args) throws InterruptedException, IOException {
 		ChromeOptions ch = new ChromeOptions();
 		ch.addArguments("--disable-notifications");
 		ChromeDriver driver = new ChromeDriver(ch);
@@ -54,8 +59,11 @@ public class Testcase1AdministratorCertifications {
 		for (int i = 0; i <4; i++) {
 
 			System.out.println(findElement.get(i).getText());
-
 		}
-
+		String timestamp = new SimpleDateFormat("yyyy_MM_dd__hh_mm_ss").format(new Date());
+		File source = driver.getScreenshotAs(OutputType.FILE);	
+		File destination = new File("./snaps/"+timestamp+".png");
+		FileUtils.copyFile(source, destination);
+		driver.quit();
 	}
 }

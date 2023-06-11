@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Leaf">
+	<test thread-count="1" parallel="classes" name="LeadsTest"
+		verbose="5">
+		<classes>
+			<class
+				name="week5.day1.assignment1Leaftapsapplication.CreateLead" />			
+		</classes>
+	</test> <!-- LeadsTest -->
+</suite> <!-- Leaf -->
