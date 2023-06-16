@@ -2,6 +2,7 @@ package runner;
 
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
+import steps.Base;
 @CucumberOptions(features={"src/test/java/features/T003LoginParameterization.feature",
 //		"src/test/java/features/T001Login.feature"
 		"src/test/java/features/T004CreateLeadwithOutlineExample.feature"},
@@ -13,6 +14,6 @@ import io.cucumber.testng.CucumberOptions;
                          //tags="not @Smoke") exclude smoke
 //                         tags="@Smoke and @Regression"
                          )
-public class T005HooksImplementation extends AbstractTestNGCucumberTests{
+public class T006TestNGAnnotations extends Base{
 
 }
